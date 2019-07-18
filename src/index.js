@@ -42,7 +42,7 @@ function App() {
     transform: `translate3d(${x}px,0,0)`,
     from: {
       left: 0,
-      transform: `translate3d(0,0,0)`
+      transform: `translate3d(${x}px,0,0)`
     },
     config: config.slow
   });
