@@ -42,8 +42,7 @@ function App() {
     transform: `translate3d(${x}px,0,0)`,
     from: {
       left: 0,
-      transform: `translate3d(${x}px,0,0)`
-      // transform: `translate3d(${x}px,${y}px,0)`
+      transform: `translate3d(0,0,0)`
     },
     config: config.slow
   });
@@ -55,7 +54,7 @@ function App() {
           <div className="warp">
             <animated.div {...bind()} style={anime}>
               {images.map((data, i) => (
-                <img key={i} src={data.url} alt={data.name} />
+                <img draggable={false} key={i} src={data.url} alt={data.name} />
               ))}
             </animated.div>
           </div>
