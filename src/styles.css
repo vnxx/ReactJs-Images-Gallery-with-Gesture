@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.warp {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.warp img {
+  width: 100%;
+}
+
+.gallery {
+  box-sizing: border-box;
+  position: relative;
+  background: green;
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.bullet {
+  width: 100%;
+  /* background-color: green; */
+  height: 10px;
+  padding: 10px;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bullet .bola {
+  width: 8px;
+  height: 8px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin: 0 5px 0 5px;
+}
+
+.bullet .bola-on {
+  width: 8px;
+  height: 8px;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin: 0 5px 0 5px;
+}
